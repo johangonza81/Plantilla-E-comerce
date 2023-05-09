@@ -106,7 +106,9 @@ button{
     color:yellowgreen;
     background-color: blue;
     width: 100%;
-    margin-bottom: 3em;
+    height: 3em;
+    border-radius: 6px;
+    
 }
 
 .container2 p{
