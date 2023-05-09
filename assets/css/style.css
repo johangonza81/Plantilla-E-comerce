@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: hsla(217, 85%, 24%, 0.371);
+}
+
+img galery2{
+    height:250px;
+}
+.header {
+    height: 4em;
+    grid-area: a;
+    background-color: blue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.menu {
+    margin-top: 1.3em;
+    margin-bottom: 1.2em;
+    border: 8%;
+    grid-area: b;
+    background-color: rgba(110, 80, 150, 0.429);
+    
+}
+
+.main1 {
+    padding-top: 0.5em;
+    grid-area: c;
+    
+    
+}
+
+.main2 {
+    padding-top: 0.5em;
+    grid-area: d;
+    
+}
+
+.main3 {
+    padding-top: 0.5em;
+    grid-area: e;
+    
+}
+
+.footer {
+    height: 2em;
+    grid-area: f;
+    background-color: blue;
+}
+
+
+
+
+
+.grid-container {
+    height: 100vh;
+    display: grid;
+    gap: 15px;
+    grid-template-areas:
+    "a a a a "
+    "b c d e "
+    "f f f f ";
+}
+
+.container2{
+    display:flex;
+    flex-direction: column;
+}
+
+.container21{
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+li{
+    margin-left:2em;
+    list-style: none;
+}
+
+p{
+    padding-left: 1em;
+    padding-top: 1.5em;
+}
+
+.Modelo{
+    padding-left:2em;
+}
+
+.Precio{
+    padding-left:2em;
+}
+
+button{
+    color:yellowgreen;
+    background-color: blue;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.container2 p{
+    color:yellow;
+}
+
+.container2 li{
+    color:yellow;
+}
+
+.container21 h4{
+    margin:1.2em;
+    color:yellow;
+}
+
+
+
+.footer h3{
+    text-align: center;
+}
+
+.container21 img{
+    width: 250px;
+}
+
+.container21 h5{
+    margin:2.5em;
+    
+}
+.card{
+    
+    background-color:rgba(8, 53, 113, 0.429);
+    height: 500px;
+    margin-top:1em ;
+    margin-bottom:1em ;
+}
