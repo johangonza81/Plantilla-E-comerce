@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: hsla(217, 85%, 24%, 0.371);
+    background-color: burlywood;
 }
 
 img galery2{
@@ -63,7 +63,7 @@ img galery2{
 .grid-container {
     height: 100vh;
     display: grid;
-    gap: 15px;
+    gap: 10px;
     grid-template-areas:
     "a a a a "
     "b c d e "
@@ -139,7 +139,7 @@ button{
 .card{
     
     background-color:rgba(8, 53, 113, 0.429);
-    height: 500px;
+    height: 100%;
     margin-top:1em ;
     margin-bottom:1em ;
 }
